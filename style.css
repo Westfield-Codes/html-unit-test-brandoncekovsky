@@ -1,19 +1,28 @@
+html {
+	background-color:lightgray;
+}
+
 body {
-  width:90%;
+  width:900px;
+  border: 1px solid lightgray;
+  margin:auto;
+  padding:20px;
+  background-color:white;
+  font-family:arial;
+  text-align:center;
 }
 
 th {
   vertical-align:top;
   background-color:#A4C2F4;
+  padding:5px;
+  font-style:italic;
+  text-align:center;
 }
 
 td {
     padding:5px;
     vertical-align:center; 
-}
-
-th {
-  text-align:center;
 }
 
 ul {
@@ -23,4 +32,17 @@ ul {
 img {
 	width:40px;
 	height:40px;
+}
+
+table{
+	max-width:850px;
+	background-color:beige;
+	text-align:left;
+	margin:auto;
+}
+td:nth-child(1){
+	text-align:center;
+}
+td:nth-child(4){
+	text-align:center;
 }
